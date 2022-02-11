@@ -44,4 +44,4 @@ def solution(banana_list):
     return int(len(banana_list) - 2 * (result / 2))
 
 
-print(solution([1, 7, 3, 21, 13, 19]))
+#print(solution([1, 7, 3, 21, 13, 19]))
