@@ -19,7 +19,7 @@ def check_loop(a, b):
         return False
     if (a + b) % 2 == 1:
         return True
-
+        
     k = gcd(int(a), int(b))
     a, b = a / k, b / k
     a, b = max(a, b), min(a, b)
